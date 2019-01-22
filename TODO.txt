@@ -1,0 +1,9 @@
+X0x heart
+;;with midibox seq v4
+
+
+Midi seq v4, Arduino cv GAS logic?
+
+Or +-12v, doepfer synth? 
+
+Arduino code: vibrato on mod wheel, mozzi osc
