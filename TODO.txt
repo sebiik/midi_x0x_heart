@@ -1,9 +1,12 @@
-X0x heart
-;;with midibox seq v4
-
 
 Midi seq v4, Arduino cv GAS logic?
 
-Or +-12v, doepfer synth? 
+Or +-12v, doepfer synth?
 
-Arduino code: vibrato on mod wheel, mozzi osc
+Arduino code: vibrato on mod wheel, mozzi bonus square osc?
+Add m0xpd/ADSRduino pitch/cutoff envelope?
+
+
+Pacemaker vcf input: level adjust switch (R19!)
+
+Square wave shape: This was slightly different between my 303 and the x0x-heart. As usual, it's hard to say whether that is consistent across all 303's, but to get them to match on mine, i needed to add and extra 0.47uF across C11, and then it was perfect.

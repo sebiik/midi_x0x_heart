@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 74HC165)(type Legacy)(uri ${KIPRJMOD}/74HC165.lib)(options "")(descr ""))
+  (lib (name switch-omron)(type Legacy)(uri ${KIPRJMOD}/switch-omron.lib)(options "")(descr ""))
+)

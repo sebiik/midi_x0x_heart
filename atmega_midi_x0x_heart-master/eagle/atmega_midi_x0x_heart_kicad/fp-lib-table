@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name atmega_midi_x0x_heart)(type KiCad)(uri "$(KIPRJMOD)/atmega_midi_x0x_heart.pretty")(options "")(descr ""))
+)

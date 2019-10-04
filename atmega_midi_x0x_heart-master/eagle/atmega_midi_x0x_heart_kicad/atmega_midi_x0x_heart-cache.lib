@@ -1,0 +1,553 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# atmega_midi_x0x_heart-eagle-import_+12V
+#
+DEF atmega_midi_x0x_heart-eagle-import_+12V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "atmega_midi_x0x_heart-eagle-import_+12V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 50 -50 -25 N
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 50 -25 0 50 N
+X +12V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_+5V
+#
+DEF atmega_midi_x0x_heart-eagle-import_+5V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "atmega_midi_x0x_heart-eagle-import_+5V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +5V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_-12V
+#
+DEF atmega_midi_x0x_heart-eagle-import_-12V #P- 0 40 Y Y 1 L P
+F0 "#P-" 0 0 50 H I C CNN
+F1 "atmega_midi_x0x_heart-eagle-import_-12V" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 25 0 -50 N
+P 2 1 0 0 -50 75 0 0 N
+P 2 1 0 0 0 -50 50 25 N
+P 2 1 0 0 0 0 50 75 N
+X -12V 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_2,54_0,9
+#
+DEF atmega_midi_x0x_heart-eagle-import_2,54_0,9 PAD 0 40 Y Y 1 L N
+F0 "PAD" -45 73 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_2,54_0,9" -45 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -40 -40 40 40 N
+P 2 1 0 0 -40 40 40 -40 N
+X P 1 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_22-23-2021
+#
+DEF ~atmega_midi_x0x_heart-eagle-import_22-23-2021 X 0 40 Y Y 2 L N
+F0 "X" 100 -30 51 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_22-23-2021" -30 55 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 50 0 0 0 N
+P 2 2 0 0 50 0 0 0 N
+X S 1 -100 0 100 R 0 0 1 0 P
+X S 2 -100 0 100 R 0 0 2 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_22-23-2031
+#
+DEF ~atmega_midi_x0x_heart-eagle-import_22-23-2031 X 0 40 Y Y 3 L N
+F0 "X" 100 -30 51 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_22-23-2031" -30 55 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 50 0 0 0 N
+P 2 2 0 0 50 0 0 0 N
+P 2 3 0 0 50 0 0 0 N
+X S 1 -100 0 100 R 0 0 1 0 P
+X S 2 -100 0 100 R 0 0 2 0 P
+X S 3 -100 0 100 R 0 0 3 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_22-23-2061
+#
+DEF ~atmega_midi_x0x_heart-eagle-import_22-23-2061 X 0 40 Y Y 6 L N
+F0 "X" 100 -30 51 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_22-23-2061" -30 55 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 50 0 0 0 N
+P 2 2 0 0 50 0 0 0 N
+P 2 3 0 0 50 0 0 0 N
+P 2 4 0 0 50 0 0 0 N
+P 2 5 0 0 50 0 0 0 N
+P 2 6 0 0 50 0 0 0 N
+X S 1 -100 0 100 R 0 0 1 0 P
+X S 2 -100 0 100 R 0 0 2 0 P
+X S 3 -100 0 100 R 0 0 3 0 P
+X S 4 -100 0 100 R 0 0 4 0 P
+X S 5 -100 0 100 R 0 0 5 0 P
+X S 6 -100 0 100 R 0 0 6 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_6N138
+#
+DEF atmega_midi_x0x_heart-eagle-import_6N138 OK 0 40 Y Y 1 L N
+F0 "OK" -375 325 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_6N138" -375 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 150 200 5 1 0 16 N
+C 200 -100 5 1 0 16 N
+T 0 -325 160 27 0 1 0 A Normal 0 L B
+T 0 -325 -170 27 0 1 0 C Normal 0 L B
+T 0 270 -245 27 0 1 0 GND Normal 0 L B
+T 0 200 110 27 0 1 0 Vb Normal 0 L B
+T 0 200 210 27 0 1 0 Vcc Normal 0 L B
+T 0 300 15 27 0 1 0 Vo Normal 0 L B
+S 35 -150 65 50 1 0 0 F
+S 235 -200 265 0 1 0 0 F
+P 2 1 0 0 -400 -200 -275 -200 N
+P 2 1 0 0 -400 200 -275 200 N
+P 2 1 0 0 -375 300 -375 -300 N
+P 2 1 0 0 -275 -200 -275 0 N
+P 2 1 0 0 -275 0 -325 0 N
+P 2 1 0 0 -275 0 -325 100 N
+P 2 1 0 0 -275 100 -325 100 N
+P 2 1 0 0 -275 100 -275 0 N
+P 2 1 0 0 -275 100 -275 200 N
+P 2 1 0 0 -225 0 -275 0 N
+P 2 1 0 0 -225 100 -275 0 N
+P 2 1 0 0 -225 100 -275 100 N
+P 2 1 0 0 -200 25 -150 25 N
+P 2 1 0 0 -200 75 -150 75 N
+P 2 1 0 0 -150 25 -165 15 N
+P 2 1 0 0 -150 25 -165 35 N
+P 2 1 0 0 -150 75 -165 65 N
+P 2 1 0 0 -150 75 -165 85 N
+P 2 1 0 0 -100 0 -50 0 N
+P 2 1 0 0 -100 0 -50 100 N
+P 2 1 0 0 -100 100 -50 100 N
+P 2 1 0 0 -50 -50 -50 0 N
+P 2 1 0 0 -50 -50 50 -50 N
+P 2 1 0 0 -50 0 -50 100 N
+P 2 1 0 0 -50 0 0 0 N
+P 2 1 0 0 -50 100 0 0 N
+P 2 1 0 0 -50 100 0 100 N
+P 2 1 0 0 -50 200 -50 100 N
+P 2 1 0 0 50 -50 140 -140 N
+P 2 1 0 0 90 -120 120 -90 N
+P 2 1 0 0 120 -90 140 -140 N
+P 2 1 0 0 140 -140 90 -120 N
+P 2 1 0 0 140 -140 150 -150 N
+P 2 1 0 0 150 -150 200 -150 N
+P 2 1 0 0 150 50 50 -50 N
+P 2 1 0 0 150 50 150 200 N
+P 2 1 0 0 150 200 -50 200 N
+P 2 1 0 0 150 200 400 200 N
+P 2 1 0 0 200 -150 200 -100 N
+P 2 1 0 0 200 -100 200 100 N
+P 2 1 0 0 200 -100 250 -100 N
+P 2 1 0 0 200 100 400 100 N
+P 2 1 0 0 250 -100 340 -190 N
+P 2 1 0 0 290 -170 320 -140 N
+P 2 1 0 0 320 -140 340 -190 N
+P 2 1 0 0 340 -190 290 -170 N
+P 2 1 0 0 340 -190 350 -200 N
+P 2 1 0 0 350 -200 400 -200 N
+P 2 1 0 0 350 0 250 -100 N
+P 2 1 0 0 350 0 400 0 N
+P 2 1 0 0 375 -300 -375 -300 N
+P 2 1 0 0 375 300 -375 300 N
+P 2 1 0 0 375 300 375 -300 N
+X A 2 -500 200 100 R 50 0 1 0 P
+X C 3 -500 -200 100 R 50 0 1 0 P
+X GND 5 500 -200 100 L 50 0 1 0 P
+X VO 6 500 0 100 L 50 0 1 0 P
+X VB 7 500 100 100 L 50 0 1 0 P
+X VCC 8 500 200 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_ATMEGA328P_PDIP
+#
+DEF atmega_midi_x0x_heart-eagle-import_ATMEGA328P_PDIP U 0 40 Y Y 1 L N
+F0 "U" -700 1130 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_ATMEGA328P_PDIP" -700 -1500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -700 -1400 -700 1100 N
+P 2 1 0 0 -700 1100 800 1100 N
+P 2 1 0 0 800 -1400 -700 -1400 N
+P 2 1 0 0 800 1100 800 -1400 N
+X PC6(/RESET) 1 -900 1000 200 R 50 50 1 0 B I
+X PB7(XTAL2/TOSC2) 10 -900 -200 200 R 50 50 1 0 B
+X PD5(T1) 11 1000 -400 200 L 50 50 1 0 B
+X PD6(AIN0) 12 1000 -500 200 L 50 50 1 0 B
+X PD7(AIN1) 13 1000 -600 200 L 50 50 1 0 B
+X PB0(ICP) 14 1000 -800 200 L 50 50 1 0 B
+X PB1(OC1A) 15 1000 -900 200 L 50 50 1 0 B
+X PB2(SS/OC1B) 16 1000 -1000 200 L 50 50 1 0 B
+X PB3(MOSI/OC2) 17 1000 -1100 200 L 50 50 1 0 B
+X PB4(MISO) 18 1000 -1200 200 L 50 50 1 0 B
+X PB5(SCK) 19 1000 -1300 200 L 50 50 1 0 B
+X PD0(RXD) 2 1000 100 200 L 50 50 1 0 B
+X AVCC 20 -900 800 200 R 50 50 1 0 B
+X AREF 21 -900 400 200 R 50 50 1 0 B
+X GND@2 22 -900 -1200 200 R 50 50 1 0 B
+X PC0(ADC0) 23 1000 1000 200 L 50 50 1 0 B
+X PC1(ADC1) 24 1000 900 200 L 50 50 1 0 B
+X PC2(ADC2) 25 1000 800 200 L 50 50 1 0 B
+X PC3(ADC3) 26 1000 700 200 L 50 50 1 0 B
+X PC4(ADC4/SDA) 27 1000 600 200 L 50 50 1 0 B
+X PC5(ADC5/SCL) 28 1000 500 200 L 50 50 1 0 B
+X PD1(TXD) 3 1000 0 200 L 50 50 1 0 B
+X PD2(INT0) 4 1000 -100 200 L 50 50 1 0 B
+X PD3(INT1) 5 1000 -200 200 L 50 50 1 0 B
+X PD4(XCK/T0) 6 1000 -300 200 L 50 50 1 0 B
+X VCC 7 -900 700 200 R 50 50 1 0 B
+X GND@1 8 -900 -1100 200 R 50 50 1 0 B
+X PB6(XTAL1/TOSC1) 9 -900 0 200 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_C-US050-024X044
+#
+DEF atmega_midi_x0x_heart-eagle-import_C-US050-024X044 C 0 40 Y Y 1 L N
+F0 "C" 40 25 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_C-US050-024X044" 40 -165 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 10 N 0 -40 -97 -72
+A 0 -198 159 519 900 1 0 10 N 98 -73 0 -39
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 0 -40 0 -100 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_CPOL-USB45181A
+#
+DEF atmega_midi_x0x_heart-eagle-import_CPOL-USB45181A C 0 40 Y Y 1 L N
+F0 "C" 40 25 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_CPOL-USB45181A" 40 -165 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 10 N 0 -40 -97 -72
+A 0 -198 159 519 900 1 0 10 N 98 -73 0 -39
+S -88 26 -53 31 1 0 0 F
+S -73 11 -68 46 1 0 0 F
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 0 -40 0 -100 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_CPOL-USB45181B
+#
+DEF atmega_midi_x0x_heart-eagle-import_CPOL-USB45181B C 0 40 Y Y 1 L N
+F0 "C" 40 25 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_CPOL-USB45181B" 40 -165 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 10 N 0 -40 -97 -72
+A 0 -198 159 519 900 1 0 10 N 98 -73 0 -39
+S -88 26 -53 31 1 0 0 F
+S -73 11 -68 46 1 0 0 F
+P 2 1 0 0 -100 0 100 0 N
+P 2 1 0 0 0 -40 0 -100 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_CRYSTALHC49S
+#
+DEF atmega_midi_x0x_heart-eagle-import_CRYSTALHC49S Q 0 40 Y Y 1 L N
+F0 "Q" 100 40 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_CRYSTALHC49S" 100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -85 -45 28 0 1 0 1 Normal 0 L B
+T 0 60 -45 28 0 1 0 2 Normal 0 L B
+P 2 1 0 0 -100 0 -40 0 N
+P 2 1 0 0 -40 70 -40 -70 N
+P 2 1 0 0 -15 -60 15 -60 N
+P 2 1 0 0 -15 60 -15 -60 N
+P 2 1 0 0 15 -60 15 60 N
+P 2 1 0 0 15 60 -15 60 N
+P 2 1 0 0 40 0 100 0 N
+P 2 1 0 0 40 70 40 -70 N
+X 1 1 -100 0 0 R 0 0 1 0 P
+X 2 2 100 0 0 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_DIODE1N4148
+#
+DEF atmega_midi_x0x_heart-eagle-import_DIODE1N4148 D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_DIODE1N4148" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -50 0 N
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 0 -50 -50 N
+P 2 1 0 0 -50 50 -50 0 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+P 2 1 0 0 100 0 50 0 N
+X A A -100 0 0 R 0 0 1 0 P
+X C C 100 0 0 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_DS1267S-010+DIP14
+#
+DEF atmega_midi_x0x_heart-eagle-import_DS1267S-010+DIP14 U 0 40 Y Y 1 L N
+F0 "U" -186 972 69 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_DS1267S-010+DIP14" -153 -1332 69 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -1200 500 -1200 N
+P 2 1 0 0 -500 900 -500 -1200 N
+P 2 1 0 0 500 -1200 500 900 N
+P 2 1 0 0 500 900 -500 900 N
+X VB 1 -700 500 200 R 50 50 1 0 I
+X L0 10 700 -800 200 L 50 50 1 0 P
+X H0 11 700 -600 200 L 50 50 1 0 P
+X W0 12 700 -700 200 L 50 50 1 0 P
+X SOUT 13 700 600 200 L 50 50 1 0 O
+X VCC 14 -700 700 200 R 50 50 1 0 W
+X H1 2 700 -100 200 L 50 50 1 0 P
+X L1 3 700 -300 200 L 50 50 1 0 P
+X W1 4 700 -200 200 L 50 50 1 0 P
+X ~~RST 5 -700 -300 200 R 50 50 1 0 I
+X CLK 6 -700 -100 200 R 50 50 1 0 I
+X GND 7 -700 -1000 200 R 50 50 1 0 P
+X DQ 8 -700 -200 200 R 50 50 1 0 I
+X COUT 9 700 700 200 L 50 50 1 0 O
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_FB
+#
+DEF atmega_midi_x0x_heart-eagle-import_FB ~ 0 40 Y Y 1 L N
+F0 "" -50 -200 59 V V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_FB" 150 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -150 50 0 900 1 0 10 N 50 -150 0 -100
+A 0 -150 50 -900 0 1 0 10 N 0 -200 50 -150
+A 0 -50 50 0 900 1 0 10 N 50 -50 0 0
+A 0 -50 50 -900 0 1 0 10 N 0 -100 50 -50
+A 0 50 50 0 900 1 0 10 N 50 50 0 100
+A 0 50 50 -900 0 1 0 10 N 0 0 50 50
+A 0 150 50 0 900 1 0 10 N 50 150 0 200
+A 0 150 50 -900 0 1 0 10 N 0 100 50 150
+X 1 P$1 0 300 100 D 0 0 1 0 P
+X 2 P$2 0 -300 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_GND
+#
+DEF atmega_midi_x0x_heart-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "atmega_midi_x0x_heart-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_MCP4822-E_P
+#
+DEF atmega_midi_x0x_heart-eagle-import_MCP4822-E_P ~ 0 40 Y Y 1 L N
+F0 "" -186 559 69 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_MCP4822-E_P" -204 -859 69 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -700 500 -700 N
+P 2 1 0 0 -500 400 -500 -700 N
+P 2 1 0 0 500 -700 500 400 N
+P 2 1 0 0 500 400 -500 400 N
+X VDD 1 -700 200 200 R 50 50 1 0 W
+X ~~CS 2 -700 0 200 R 50 50 1 0 I
+X SCK 3 -700 -100 200 R 50 50 1 0 I
+X SDI 4 -700 -200 200 R 50 50 1 0 I
+X ~~LDAC 5 -700 -300 200 R 50 50 1 0 I
+X VOUTB 6 700 100 200 L 50 50 1 0 O
+X AVSS 7 -700 -500 200 R 50 50 1 0 P
+X VOUTA 8 700 200 200 L 50 50 1 0 O
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_POWER
+#
+DEF ~atmega_midi_x0x_heart-eagle-import_POWER PWR 0 40 Y Y 1 L N
+F0 "PWR" -200 330 42 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_POWER" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 -400 200 -400 N
+P 2 1 0 0 -200 300 -200 -400 N
+P 2 1 0 0 200 -400 200 300 N
+P 2 1 0 0 200 300 -200 300 N
+X -12V 1 400 0 200 L 0 50 1 0 B
+X +12V 10 400 200 200 L 0 50 1 0 B
+X +5V 11 400 -100 200 L 0 50 1 0 B
+X +5V 12 400 -100 200 L 0 50 1 0 B
+X CV 13 400 -200 200 L 0 50 1 0 B
+X CV 14 400 -200 200 L 0 50 1 0 B
+X GATE 15 400 -300 200 L 0 50 1 0 B
+X GATE 16 400 -300 200 L 0 50 1 0 B
+X -12V 2 400 0 200 L 0 50 1 0 B
+X GND 3 400 100 200 L 0 50 1 0 B
+X GND 4 400 100 200 L 0 50 1 0 B
+X GND 5 400 100 200 L 0 50 1 0 B
+X GND 6 400 100 200 L 0 50 1 0 B
+X GND 7 400 100 200 L 0 50 1 0 B
+X GND 8 400 100 200 L 0 50 1 0 B
+X +12V 9 400 200 200 L 0 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_R-US_0207_10
+#
+DEF atmega_midi_x0x_heart-eagle-import_R-US_0207_10 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_R-US_0207_10" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_TLV2372IP
+#
+DEF atmega_midi_x0x_heart-eagle-import_TLV2372IP U 0 40 Y Y 1 L N
+F0 "U" -195 479 69 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_TLV2372IP" -109 -825 69 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -700 500 -700 N
+P 2 1 0 0 -500 400 -500 -700 N
+P 2 1 0 0 500 -700 500 400 N
+P 2 1 0 0 500 400 -500 400 N
+X 1OUT 1 700 200 200 L 50 50 1 0 O
+X 1IN- 2 -700 -100 200 R 50 50 1 0 I
+X 1IN_+ 3 -700 0 200 R 50 50 1 0 I
+X GND 4 -700 -500 200 R 50 50 1 0 P
+X 2IN+ 5 -700 -200 200 R 50 50 1 0 I
+X 2IN- 6 -700 -300 200 R 50 50 1 0 I
+X 2OUT 7 700 100 200 L 50 50 1 0 O
+X VDD 8 -700 200 200 R 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_TRIM_US-B64W
+#
+DEF atmega_midi_x0x_heart-eagle-import_TRIM_US-B64W R 0 40 Y Y 1 L N
+F0 "R" -200 -100 59 V V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_TRIM_US-B64W" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -40 -150 50 -100 N
+P 2 1 0 0 -40 -50 50 0 N
+P 2 1 0 0 -40 50 50 100 N
+P 2 1 0 0 -40 150 0 180 N
+P 2 1 0 0 0 -200 0 -180 N
+P 2 1 0 0 0 -180 -40 -150 N
+P 2 1 0 0 0 180 0 200 N
+P 2 1 0 0 50 -100 -40 -50 N
+P 2 1 0 0 50 0 -40 50 N
+P 2 1 0 0 50 0 100 50 N
+P 2 1 0 0 50 100 -40 150 N
+P 2 1 0 0 55 -135 80 -85 N
+P 2 1 0 0 80 -185 80 -85 N
+P 2 1 0 0 80 -85 105 -135 N
+P 2 1 0 0 100 -50 50 0 N
+P 2 1 0 0 100 50 100 -50 N
+P 2 1 0 0 105 -135 55 -135 N
+X A A 0 -300 100 U 0 0 1 0 P
+X E E 0 300 100 D 0 0 1 0 P
+X S S 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# atmega_midi_x0x_heart-eagle-import_ZENER-DIODEDO35Z10
+#
+DEF atmega_midi_x0x_heart-eagle-import_ZENER-DIODEDO35Z10 D 0 40 Y Y 1 L N
+F0 "D" -70 75 59 H V L BNN
+F1 "atmega_midi_x0x_heart-eagle-import_ZENER-DIODEDO35Z10" -70 -135 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 -50 25 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
